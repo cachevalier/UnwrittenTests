@@ -1,0 +1,6 @@
+﻿{
+  reference: INV-0001,
+  amount: 120,
+  currency: EUR,
+  status: 0
+}

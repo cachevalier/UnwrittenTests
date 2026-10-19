@@ -1,0 +1,8 @@
+root = true
+
+[*.cs]
+# Appel interdit par BannedSymbols.txt (DateTime.Now, TimeZoneInfo.Local...) : erreur de build
+dotnet_diagnostic.RS0030.severity = error
+
+# Conversion sans culture explicite (Parse, ToString...) : erreur de build
+dotnet_diagnostic.CA1305.severity = error
